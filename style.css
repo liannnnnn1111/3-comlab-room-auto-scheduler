@@ -1,0 +1,95 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* ===== Colors ===== */
+    --body-color: #EFE9F7;
+    --headernavbar-color: #FFF;
+    --primary-color: #695CFE;
+    --primary-color-light: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /* ===== Transition ===== */
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+body {
+    height: 100vh;
+    background: var(--body-color);
+    transition: var(--tran-05);
+    overflow: hidden;
+}
+
+/* <----==== HEADER NAV BAR START ====----> */
+
+.bryan-text {
+    position: fixed;
+    margin-top: 120px;
+    margin-left: 250px;
+    height:400px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    background: var(--headernavbar-color);
+    color: white;
+    z-index: 100;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+.bryan-text input {
+    display: flex;
+    position: relative;
+    margin-left: 1125px;
+    margin-bottom: 15px;
+    height: 40px;
+    width: 280px;
+    outline: auto;
+    border: none;
+    border-radius: 6px;
+    padding-left: 8px;
+    font-size: 16px;
+    font-weight: 500px;
+    background-color: red;
+    transition: var(--tran-05);
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 40;
+}
+
+th, td {
+    padding: 9px;
+    text-align: left;
+    border-bottom: 0px solid #ffffff;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+/* Alternate row background color */
+tbody tr:nth-child(even) {
+    background-color: #f1eeee;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    color: #888;
+}

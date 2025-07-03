@@ -1,0 +1,6 @@
+Room table: schedules_cl1
+Room table: schedules_cl1
+Room table: schedules_cl2
+Room table: schedules_cl1
+Room table: schedules_cl1
+Room table: schedules_cl1
